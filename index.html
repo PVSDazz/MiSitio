@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Sitio Web</title>
+    <!-- Enlace a Bootstrap CDN para estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .jumbotron {
+            background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg');
+            background-size: cover;
+            background-opacity: 0.7;
+            text-align: center;
+            padding: 200px 0;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #58B2AF;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <p>Descubre nuestro emocionante proyecto</p>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Descripción del Proyecto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus ac libero imperdiet consectetur.</p>
+                <p>Phasellus nec purus sit amet odio hendrerit posuere. Sed auctor sit amet lorem in euismod.</p>
+                <p>Proin vel luctus odio. Integer non felis sit amet libero hendrerit condimentum.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Video Destacado</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K5pkkuiyRzk"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
